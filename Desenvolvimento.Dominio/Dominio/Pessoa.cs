@@ -22,6 +22,8 @@ namespace Desenvolvimento.Dominio.Dominio
         public string? EmailPessoa { get => _emailPessoa; set => _emailPessoa = value; }
         public string? Sexo { get => _sexo; set => _sexo = value; }
 
+        public string? Cpf { get => _cpf; set => _cpf = value; }
+
         public virtual Carro? Carro { get => _carro; set => _carro = value; }
 
         public virtual Endereco? Endereco { get => _endereco; set => _endereco = value; }

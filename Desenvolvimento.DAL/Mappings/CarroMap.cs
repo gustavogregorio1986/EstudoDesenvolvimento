@@ -46,7 +46,7 @@ namespace Desenvolvimento.DAL.Mappings
               .IsRequired();
 
             builder.HasOne(c => c.Pessoa)
-                .WithOne(p => p.Carro)
+                .WithOne(p => p.Carro);
         }
     }
 }
