@@ -19,6 +19,8 @@ namespace Desenvolvimento.Dominio.Dominio
 
         public Guid IdEndereco { get => _idEndereco; set => _idEndereco = value; }
 
+        public string? Logradouro { get => _logradouro; set => _logradouro = value; }
+
         public string? Complemento { get => _complemento; set => _complemento = value; }
 
         public string? Bairro { get => _bairro; set => _bairro = value; }
