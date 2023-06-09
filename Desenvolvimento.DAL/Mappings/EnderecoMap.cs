@@ -39,6 +39,9 @@ namespace Desenvolvimento.DAL.Mappings
                .HasColumnName("CIDADE")
                .HasMaxLength(40)
                .IsRequired();
+
+            builder.HasOne(e => e.Pessoa)
+               .WithOne(p => p.Endereco);
         }
     }
 }

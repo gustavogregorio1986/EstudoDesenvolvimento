@@ -44,6 +44,9 @@ namespace Desenvolvimento.DAL.Mappings
               .HasColumnName("TELEFONE")
               .HasMaxLength(10)
               .IsRequired();
+
+            builder.HasOne(c => c.Pessoa)
+                .WithOne(p => p.Carro)
         }
     }
 }

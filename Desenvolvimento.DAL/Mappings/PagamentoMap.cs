@@ -30,6 +30,9 @@ namespace Desenvolvimento.DAL.Mappings
                 .HasMaxLength(4)
                 .IsRequired();
 
+            builder.HasOne(c => c.Pessoa)
+                .WithOne(p => p.Pagamento);
+
 
         }
     }
