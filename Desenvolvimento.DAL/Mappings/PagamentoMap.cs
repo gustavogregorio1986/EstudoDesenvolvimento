@@ -29,6 +29,8 @@ namespace Desenvolvimento.DAL.Mappings
                 .HasColumnName("QTDE")
                 .HasMaxLength(4)
                 .IsRequired();
+
+
         }
     }
 }

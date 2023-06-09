@@ -18,7 +18,7 @@ namespace Desenvolvimento.DAL.Mappings
             builder.HasKey(p => p.IdPessoa);
 
             builder.Property(p => p.IdPessoa)
-                .HasColumnName("ID");
+                .HasColumnName("IDPESSOA");
 
             builder.Property(p => p.NomePessoa)
                 .HasColumnName("NOMEPESSOA")
